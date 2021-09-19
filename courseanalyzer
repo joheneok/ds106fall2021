@@ -1,0 +1,12 @@
+#This program prints a message based on a student’s course average
+#Place your name in this comment
+averageGrade = eval(input("Please enter your current course average (0-100):"))
+adviceMsg = "Wow! Keep up the great work!"
+if (averageGrade >= 90):
+    print(adviceMsg)
+elif (averageGrade >= 80):
+    print("You’re doing great!  Keep doing what you’re doing!")
+elif (averageGrade >= 70):
+    print("If you put in a little more time and effort, you could be getting an A or B. Hange in there!")
+else:
+    print("Make sure to attend class and turn in your assignments.")
